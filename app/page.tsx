@@ -65,7 +65,7 @@ export default function Home() {
               />
               <h3 className="text-xl font-semibold mb-2">Relationship Counseling</h3>
               <p className="text-gray-700 text-sm">
-                Whether you're struggling with communication, trust, or connection — gain clarity and
+                Whether you are struggling with communication, trust, or connection — gain clarity and
                 rebuild strong, healthy relationships through proven couples therapy approaches.
               </p>
             </div>
