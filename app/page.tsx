@@ -129,7 +129,7 @@ export default function Home() {
       onSubmit={(e) => {
         e.preventDefault();
         const form = e.currentTarget;
-        const name = form.name.value;
+        const name = (form.elements.namedItem("name") as HTMLInputElement).value;
         const phone = form.phone.value;
         const email = form.email.value;
         const message = form.message.value;
